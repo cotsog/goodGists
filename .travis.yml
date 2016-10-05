@@ -16,6 +16,8 @@ android:
         - sys-img-armeabi-v7a-android-24 # 7.0
     licenses:
         - '.+'
+        - android-sdk-license-.+
+        - google-gdk-license-.+
 before_install:
     - chmod +x gradlew
 #before_script:
